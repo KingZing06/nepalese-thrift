@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <button class="back-btn" onclick="goBack()">← Back</button>
+  <h1>Contact</h1>
+</header>
+
+<section>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <textarea id="message" placeholder="Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
